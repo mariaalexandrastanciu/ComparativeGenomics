@@ -1,0 +1,15 @@
+####these files are not added because they are very large, but they can be regenerated with BLASTP search
+queryCE_VS_databaseDP_ortho - file that contains blastp output search of C. elegans genes against D.pulex as database
+queryDP_VS_databaseCE_ortho - file that contains blastp output search of D. Pulex genes against C. Elegans as database
+query_paralogs_ce - file that contains blastp output search of C. elegans genes against itself as database
+query_paralogs_dp - file that contains blastp output search of D. duplex genes against itself as database
+
+
+CEvsdbDP_besthits.txt - best hits identified for C. elegans genes against D.pulex as databas
+DPvsdbCE_besthits.txt - best hits identified for D. pulex genes against C.elegans as databse
+CE_dbCE_besthists.txt - best hist identified for C.elegans genes against itself
+DP_dbDP_besthists.txt - best hist identified for D.pulex genes against itself
+
+Ce_Dp_orthologs.txt - paris of orthologs identified with BBH and taking in consideration in-paralogs
+bbh.py - contains the function used to generate the output files
+main.py - calls the functions
