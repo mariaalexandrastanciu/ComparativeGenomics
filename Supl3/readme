@@ -1,0 +1,3 @@
+blast_result.aln - the multiple sequence alignment file created with clustalw2
+conservation_sites.py - utility functions
+Conserved_Sites.txt - output file, contains the conserved sites- dictionary with column number: score,[residues].
